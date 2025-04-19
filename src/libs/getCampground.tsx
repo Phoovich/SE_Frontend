@@ -18,7 +18,7 @@ export const getCampground = async (id: string): Promise<CampgroundItem> => {
   await delay(300);
 
   const response = await fetch(
-    `https://swp-2-backend.vercel.app/api/v1/campgrounds/${id}`,
+    `https://se-backend-gilt.vercel.app/api/v1/campgrounds/${id}`,
     {
       method: "GET",
       headers: {

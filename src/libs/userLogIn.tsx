@@ -3,7 +3,7 @@ export default async function userLogIn(
   userPassword: string,
 ) {
   const response = await fetch(
-    `https://swp-2-backend.vercel.app/api/v1/auth/login`,
+    `https://se-backend-gilt.vercel.app/api/v1/auth/login`,
     {
       method: "POST",
       headers: {
@@ -21,4 +21,3 @@ export default async function userLogIn(
   }
   return await response.json();
 }
-

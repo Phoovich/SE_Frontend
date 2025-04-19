@@ -4,7 +4,7 @@ export async function registerUser(userData: {
   password: string;
 }) {
   const response = await fetch(
-    "https://swp-2-backend.vercel.app/api/v1/auth/register",
+    "https://se-backend-gilt.vercel.app/api/v1/auth/register",
     {
       method: "POST",
       headers: {

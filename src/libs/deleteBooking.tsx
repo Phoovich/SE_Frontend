@@ -18,7 +18,7 @@ export const deleteBooking = async (
 
   try {
     const response = await fetch(
-      `https://swp-2-backend.vercel.app/api/v1/bookings/${bookingId}`,
+      `https://se-backend-gilt.vercel.app/api/v1/bookings/${bookingId}`,
       {
         method: "DELETE",
         headers: {

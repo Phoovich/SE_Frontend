@@ -1,6 +1,6 @@
 export const getBookings = async (token: string): Promise<any> => {
   const response = await fetch(
-    "https://swp-2-backend.vercel.app/api/v1/bookings",
+    "https://se-backend-gilt.vercel.app/api/v1/bookings",
     {
       headers: {
         Authorization: `Bearer ${token}`, // เพิ่มส่วน Authorization header

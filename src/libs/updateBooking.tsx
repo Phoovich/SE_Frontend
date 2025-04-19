@@ -23,7 +23,7 @@ export const updateBooking = async (
 
   try {
     const response = await fetch(
-      `https://swp-2-backend.vercel.app/api/v1/bookings/${bookingId}`,
+      `https://se-backend-gilt.vercel.app/api/v1/bookings/${bookingId}`,
       {
         method: "PUT", // หรือ PATCH ขึ้นอยู่กับ API
         headers: {
